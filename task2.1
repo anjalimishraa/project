@@ -1,0 +1,14 @@
+#1.A program to print fabonacci numbers 
+print('*A python code for fabonacci numbers*')
+num = int(input("Enter the series length: ")) #we will specify the length of the series 
+start = 0
+next1 = 1
+s = 0              #we are using s for the sum of a pervious number and present number to find the next number
+nx = 1             # nx is to count the number of the steps /serise
+print("Fibonacci Series generated is: ", end = " ")
+while(nx <= num):       #while count is less then the entered series it will further increment with the step using nx+=1
+  print(s, end = " ")
+  nx += 1
+  start = next1         # it is to swap the position of the numbers
+  next1 = s
+  s = start + next1
