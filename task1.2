@@ -1,0 +1,9 @@
+#2.A Python program to input file name and print it's extention
+print('*A python program for taking file name as input and print its extension*')
+list1=['python','exe']        #we will specify two temporary extensions 
+list2=input('enter the filename:') #to input the file name
+file_name = list2.split(".")
+if file_name[1] == list1[0]:   
+    print('python')
+else:
+    print('exe')
