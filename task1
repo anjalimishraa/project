@@ -1,0 +1,9 @@
+#1.A Python program to read it's radius from the user and compute it's area 
+#we are not using 'import math' module so we will be calculating it in simple steps:
+print('*A python program for taking radius as input and to compute its area*')
+pi=3.14 
+#now we will take inputs in float because the radius can also be in decimals 
+Circle_r=float(input('enter the radius of the circle:'))
+#now we will calculate area
+Area= pi*Circle_r*Circle_r
+print('area of the circle is:= %.2f'%Area)
