@@ -1,0 +1,12 @@
+#2.A python program to input all positive numbers in range
+#using simple steps we will first specify input list 1 and 2
+print('Taking out the positive nymbers from both the lists i.e list_1 and list_2 \n')
+list1=[12,-7,5,64,-14]
+list2=[12,14,-95,3]
+for num in list1:      #we are using for loop for printing positive numbers from list1
+    if num >=0:
+        print( num,end =" ") 
+print("\n")
+for num in list2:   #we are using for loop for printing positive numbers from list2
+    if num >=0:
+        print(num,end =" ")
